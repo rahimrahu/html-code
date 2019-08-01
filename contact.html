@@ -1,0 +1,98 @@
+
+<html>
+  <head>
+    <title>topbar></title>
+    <style>
+      .menu{
+        font-color:white;
+        padding:30px;
+        font-size:20px;
+      }
+      #main
+      {
+        padding:10px;
+        text-align:center;
+        background-color:#483d8b;
+        height:30px;
+
+      }
+      #form
+      {
+        text-align: center;
+        border-color: #ccc;
+        border-width:1px;
+        background-color:white;
+        margin-right:auto;
+        margin-left:auto;
+        width:500px;
+      }
+      .input-item{
+
+        font-size: 18px;
+        padding-bottom: 12px;
+        margin-bottom:36px;
+        border-top:0;
+        border-left:0;
+        border-right:0;
+        border-bottom: 1px solid #ccc;
+        width:80%;
+      }
+      .submit{
+        background-color: #0056ff;
+        padding-top:12px;
+        padding-bottom: 12px;
+        padding-left:30px;
+        padding-right:30px;
+        font-size: 25px;
+        color:white;
+        border: none;
+      }
+      #task
+      {
+        text-align: center;
+        background-color:#483d8b;
+        padding-top:12px;
+        padding-bottom:25px;
+        position: fixed;
+        bottom:  0px;
+        left: 0;
+        width:100%;
+      }
+      #content{
+        padding-top:35px;
+        padding-bottom:20px;
+      }  
+      .menu
+      a{
+        color:white;
+      }
+    </style>
+  </head>
+  <body style="background-color:lightblue;margin:0;">
+    <div>
+      <ul id="main">
+        <span class="menu">
+          <a href="mainpg.html" visited="white">TRIPS</a></span>
+        <span class="menu">
+          <a href="about.html" visited="white">ABOUT</a></span>
+        <span class="menu">
+          <a href="contact.html" visited="white">CONTACT<a></span>
+            </ul>
+          </div>
+        <h1 style="text-align: center; font-size: 25px"> Wanna come on my next trip? Contact Me.</h1>
+        <form id="form" method="GET">
+          <div id="content">
+            <input class="input-item" placeholder="Full Name" class="input-item" type="text" name="Full Name"> <br>
+            <input class="input-item" placeholder="Email" class="input-item" type="email" name="Email" required> <br>
+            <input class="input-item" placeholder="Contact Number" maxlength="[0-9]" class="input-item" type="Contact Number" name="Contact Number"> 
+            <center>
+              <input class="submit" type="submit" value="submit">
+              </div>
+            </form>
+          <footer id="task">
+            <span class="menu">TRIPS</span>
+            <span class="menu">ABOUT</span>
+            <span class="menu">CONTACT</span>
+          </footer>
+          </body>
+        </html>
